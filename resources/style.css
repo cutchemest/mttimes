@@ -42,7 +42,7 @@ nav span{
 
 .news{
 	display: flex;
-	
+	margin-bottom: 100px;
 }
 
 .columnLarge{
@@ -51,7 +51,9 @@ nav span{
 	width: 630px;
 	height: auto;
 	margin-top: 100px;
+	
 }
+
 
 .columnMedium{
 	display: flex;
@@ -74,4 +76,74 @@ nav span{
 #cookie{
 	overflow: hidden;
 	
+}
+
+.tunaImg{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+	background-size: 100%;
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+
+.fallImg{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+	display: block;
+	height: 300px;
+	
+}
+
+.hip{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 300px;
+}
+
+.cat{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+
+span{
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 100%;
+}
+
+p{
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  padding: 10px 0;
+}
+
+.story1{
+	display: block;
+	flex-direction: column;
+}
+
+.textContent{
+	display: block;
+	
+}
+
+.story2{
+	display: block;
+	flex-direction: column;
+}
+
+
+
+.stories{
+	display: flex;
+	
+	justify-content: space-between;
 }

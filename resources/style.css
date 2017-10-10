@@ -1,3 +1,7 @@
+*{
+	border: 1px solid black;
+}
+
 .header{
 	display: flex;
     align-items: center;
@@ -34,4 +38,17 @@
 nav span{
 	padding: 10px;
 	text-decoration: underline;
+}
+
+.news{
+	display: flex;
+	
+}
+
+.columnLarge{
+	display: flex;
+	flex-direction: column;
+	width: 630px;
+	height: auto;
+	margin-top: 100px;
 }
